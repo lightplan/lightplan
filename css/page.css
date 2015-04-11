@@ -1,6 +1,15 @@
 body {
 	font-family: "helvetica neue", "Microsoft YaHei", arial, sans-serif;
 }
+@font-face {font-family: 'webfont';
+  src: url('//at.alicdn.com/t/5v847sxw9daemi.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/5v847sxw9daemi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/5v847sxw9daemi.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/5v847sxw9daemi.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/5v847sxw9daemi.svg#思源黑体-极细') format('svg'); /* iOS 4.1- */
+}
+
+
 .wrapper {
 	max-width: 960px;
 	margin: 0 auto;
@@ -11,10 +20,13 @@ body {
 }
 .leaders-intro h2 {
 	margin-top: 70px;
-	font-size: 32px
+	font-size: 40px;
+	font-family: 'webfont';
+	margin-bottom: 20px;
 }
 .leaders-intro p {
 	margin-bottom: 50px;
+	font-size: 16px
 }
 .team-list {
 	padding-left: 0;
@@ -35,4 +47,7 @@ body {
 .team-list .person img {
 	width: 100%;
 	cursor: pointer;
+}
+.team-list h2.name {
+	font-family: 'webfont';
 }
