@@ -44,15 +44,15 @@ ul,li {
 	-moz-transition: opacity 300ms ease-in;
 	-o-transition: opacity 300ms ease-in;
 	transition: opacity 300ms ease-in;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	margin-bottom: 0;
 	/* background: url(../img/dot-border.png) repeat-x bottom center; */
 	
 	position: relative;
 }
 .team-list .person .description {
-	font-size: 16px;
-	line-height:1.8;
+	font-size: 14px;
+	line-height:1.7;
 }
 .team-list .person img {
 	width: 100%;
