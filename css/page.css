@@ -58,6 +58,9 @@ ul,li {
 	border: 8px solid #f0f0f0;
 	box-sizing: border-box;
 }
+.work-list li img {
+	border: none;
+}
 .team-list h2.name {
 	font-family: 'webfont';
 	font-weight: normal;
