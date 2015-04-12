@@ -80,10 +80,9 @@
 	text-align: center;
 	position: relative;
 	background: #fafafa;
-	margin: 100px auto 0;
+	margin: 60px auto 0;
 	padding: 20px 0 50px;
-	border-top: 1.5px solid #eee;
-	border-top: 0.09375rem solid #eee
+	border-top: 1.5px solid #E9E9E9;
 }
 .footer:after {
 	content: "";
