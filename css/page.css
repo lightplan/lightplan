@@ -38,7 +38,7 @@ ul,li {
 .team-list {
 	padding-left: 0;
 }
-.team-list .person {
+.team-list .person,.work-list li {
 	list-style: none;
 	-webkit-transition: opacity 300ms ease-in;
 	-moz-transition: opacity 300ms ease-in;
@@ -46,15 +46,13 @@ ul,li {
 	transition: opacity 300ms ease-in;
 	padding-bottom: 40px;
 	margin-bottom: 0;
-	/* background: url(../img/dot-border.png) repeat-x bottom center; */
-	
 	position: relative;
 }
 .team-list .person .description {
 	font-size: 14px;
 	line-height:1.7;
 }
-.team-list .person img {
+.team-list .person img,.work-list li img {
 	width: 100%;
 	cursor: pointer;
 	border: 8px solid #f0f0f0;
@@ -64,7 +62,6 @@ ul,li {
 	font-weight: normal;
 	text-align: center;
 }
-
 @media (max-width: 750px) {
 	.team-list .person img {
 		
