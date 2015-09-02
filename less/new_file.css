@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px) {
+	.navbar-brand {
+		float: left;
+		margin-left: -15px;
+		margin-right: 5px;
+	}
+	.navbar-nav {
+		float: left;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.navbar-nav > li {
+		float: left;
+	}
+	.navbar-nav > li > a {
+		border-radius: 0;
+	}
+	.navbar-nav.pull-right {
+		float: right;
+		width: auto;
+	}
+	.navbar-toggle {
+		position: relative;
+		top: auto;
+		left: auto;
+		display: none;
+	}
+	.nav-collapse.collapse {
+		display: block !important;
+		height: auto !important;
+		overflow: visible !important;
+	}
+}
+.navbar-btn {
+	margin-top: 8px;
+}
+.navbar-text {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.navbar-link {
+	color: #777777;
+}
+.navbar-link:hover {
+	color: #333333;
+}
+.navbar-inverse .navbar-link {
+	color: #999999;
+}
+.navbar-inverse .navbar-link:hover {
+	color: white;
+}

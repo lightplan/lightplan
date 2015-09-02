@@ -1,0 +1,97 @@
+/* searchResult */
+#timeline {
+  padding-bottom: 50px;
+}
+#timeline ul,
+#timeline li {
+  margin: 0;
+  padding: 0;
+}
+#timeline .log {
+  position: relative;
+}
+#timeline .log .log-list {
+  position: relative;
+  margin-bottom: 30px;
+}
+#timeline .log .log-list:before {
+  position: absolute;
+  left: 56px;
+  border-left: 1px solid #E0E0E0;
+  content: "";
+  display: block;
+  height: 100%;
+}
+#timeline .log .log-list .log-item {
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+  list-style: none;
+}
+#timeline .log .log-list .log-item:before {
+  position: absolute;
+  left: 50px;
+  top: 29px;
+  width: 13px;
+  height: 13px;
+  display: block;
+  content: "";
+  border-radius: 50%;
+  background: #82d48c;
+  border: 3px solid #82d48c;
+}
+#timeline .content {
+  position: relative;
+  margin-left: 80px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 16px;
+  border-radius: 3px;
+}
+#timeline .content:before {
+  content: '';
+  position: absolute;
+  left: -0.5em;
+  top: 28px;
+  width: 1em;
+  height: 1em;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transition: background .1s linear;
+  -moz-transition: background .1s linear;
+  transition: background .1s linear;
+  background-color: #FFF;
+  border-left: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  z-index: 2;
+}
+#timeline .content .day-time {
+  font-size: 18px;
+  color: #383838;
+  font-weight: 100;
+  margin-top: 0;
+}
+#timeline .content .content-detail .text-box p {
+  font-size: 14px;
+  color: #383838;
+  line-height: 1.5;
+}
+#timeline .time {
+  text-align: center;
+  width: 50px;
+  float: left;
+  margin: 0;
+  margin-top: 8px;
+}
+#timeline .time .time-day {
+  font-size: 24px;
+  font-weight: 100;
+  display: block;
+}
+#timeline .time .time-month {
+  font-size: 14px;
+  color: #666;
+}
+/*# sourceMappingURL=timeline.css.map */

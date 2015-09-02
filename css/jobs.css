@@ -1,0 +1,84 @@
+/* jobs banner */
+.jobs-banner {
+  color: #fff;
+  width: auto;
+  height: 400px;
+  background: url(../img/mountain-bg.jpg) no-repeat;
+  background-size: cover;
+}
+.jobs-banner .content {
+  position: relative;
+  height: 400px;
+}
+.jobs-banner .content h1 {
+  position: absolute;
+  bottom: 70px;
+  font-size: 48px;
+  font-weight: bold;
+}
+/* jobs detail */
+.job-detail h2 {
+  font-size: 24px;
+  color: #222;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-weight: 100;
+}
+.job-detail .share-to {
+  width: auto;
+  height: 106px;
+  line-height: 106px;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  margin-bottom: 20px;
+}
+.job-detail .share-to h4 {
+  font-size: 24px;
+  color: #999;
+  float: left;
+  line-height: 106px;
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+.job-detail .share-to p {
+  font-weight: 100;
+}
+.job-detail .share-to a {
+  opacity: 0.65;
+  text-decoration: none;
+}
+.job-detail .share-to a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+.job-detail .share-to a.weibo {
+  color: #ff7800;
+}
+.job-detail .share-to a.weixin {
+  color: #7eb75f;
+}
+.job-detail .share-to a.qq {
+  color: #49aeee;
+}
+.job-detail .share-to a i {
+  font-size: 60px;
+}
+.job-detail .go-back {
+  margin-bottom: 50px;
+}
+.job-detail .go-back a {
+  color: #999;
+  font-size: 24px;
+  font-weight: 100;
+}
+.job-detail .go-back a:hover {
+  text-decoration: none;
+  color: #42ba7c;
+}
+.job-detail .go-back a i {
+  position: relative;
+  top: -3px;
+  font-size: 20px;
+  margin-right: 5px;
+}

@@ -1,0 +1,100 @@
+/* jobs banner */
+.jobs-banner {
+    & {
+        color: #fff;
+        width: auto;
+        height: 400px;
+        background: url(../img/mountain-bg.jpg) no-repeat;
+        background-size: cover;
+    }
+    .content {
+        & {
+            position: relative;
+            height: 400px;
+        }
+        h1 {
+            position: absolute;
+            bottom: 70px;
+            font-size: 48px;
+            font-weight: bold;
+        }
+    }
+}
+
+/* jobs detail */
+.job-detail {
+    h2 {
+        font-size: 24px;
+        color: #222;
+        margin-top: 40px;
+        margin-bottom: 25px;
+        font-weight: 100;
+    }
+    .share-to {
+        h4 {
+            font-size: 24px;
+            color: #999;
+            float: left;
+            line-height: 106px;
+            margin: 0;
+            padding: 0;
+            font-weight: 100;
+        }
+        p {
+            font-weight: 100;
+        }
+        & {
+            width: auto;
+            height: 106px;
+            line-height: 106px;
+            border-top: 1px solid #d4d4d4;
+            border-bottom: 1px solid #d4d4d4;
+            margin-bottom: 20px;
+        }
+        a {
+            & {
+                opacity: 0.65;
+                text-decoration: none;
+            }
+            &:hover {
+                opacity: 1;
+                text-decoration: none;
+            }
+            &.weibo {
+                color: #ff7800;
+            }
+            &.weixin {
+                color: #7eb75f;
+            }
+            &.qq {
+                color: #49aeee;
+            }
+            i {
+                font-size: 60px;
+            }  
+        }
+    }
+    // 返回
+    .go-back {
+        & {
+            margin-bottom: 50px;
+        }
+        a {
+            & {
+                color: #999;
+                font-size: 24px;
+                font-weight: 100;  
+            }
+            &:hover {
+                text-decoration: none;
+                color: #42ba7c;
+            }
+            i {
+                position: relative;
+                top: -3px;
+                font-size: 20px;
+                margin-right: 5px;
+            }
+        }
+    }
+}

@@ -1,268 +1,148 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
 
 	<head>
-		<title>杭州轻想科技有限公司</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
-		<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-		<script type="text/javascript" src="js/jquery-1.6.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
-		<script type="text/javascript" src="js/content_switch.js"></script>
-		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="js/superfish.js"></script>
-		<script type="text/javascript" src="js/forms.js"></script>
-		<script type="text/javascript" src="js/bgStretch.js"></script>
-		<script type="text/javascript" src="js/jquery.color.js"></script>
-		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-		<script type="text/javascript" src="js/jquery-ui.js"></script>
-		<script type="text/javascript" src="js/cScroll.js"></script>
-		<script type="text/javascript" src="js/jcarousellite.js"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>轻想连载首页</title>
 
+		<!-- Bootstrap core CSS -->
+		<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="fonts/iconfont.css" />
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
-  	<script type="text/javascript" src="js/html5.js"></script>
-    <link rel="stylesheet" href="css/ie.css" type="text/css" media="all">
-  <![endif]-->
-		<!--[if lt IE 8]>
-		<div style=' clear: both; text-align:center; position: relative;'>
-			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
-		</div>
-	<![endif]-->
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 	</head>
 
 	<body>
-		<div class="page_spinner">
-			<div></div>
-		</div>
-		<div id="bgStretch">
-			<img src="images/bg1.jpg" alt="">
-			<div class="spinner"></div>
-		</div>
-		<div class="over">
-			<div class="main">
-				<!--header -->
-				<header>
-					<h1><a href="#close" id="logo">轻想科技</a></h1>
-					<nav class="menu">
-						<ul id="menu">
-							<li class="active"><a href="#!/what">要做什么</a></li>
-							<li><a href="#!/who">我们是谁</a></li>
-							<li><a href="#!/join">加入我们</a></li>
+		<header class="index header background-showcase">
+			<div class="navbar">
+				<div class="container">
+					<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/">
+						<div class="asset logo-white-header"></div>
+					</a>
+					<!-- Place everything within .nav-collapse to hide it until above 768px -->
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav pull-right">
+							<li class="active"><a href="index.html">首页</a></li>
+							<li><a href="lianzai.html">精选连载</a></li>
+							<li><a href="about.html">关于我们</a></li>
 						</ul>
-					</nav>
-				</header>
-				<!--header end-->
-				<!--content -->
-				<article id="content">
-					<div class="ic"></div>
-					<ul>
-						<li id="join">
-							<div class="pad">
-								<a href="#close" class="close"><span></span></a>
-								<div class="wrapper">
-									<div class="col1">
-										<div class="wrapper green-text">
-											<p>我们等着一起与你改变世界，我们有的其实不仅仅是情怀，还有与你一样想让一切变的更好的决心。</p>
-											<p>招募合伙人类型：</p>
-											<ul>
-												<li>1、对技术有极致追求并能统筹大局的CTO</li>
-												<li>2、自信的并具有优秀学习能力的安卓开发</li>
-												<li>3、自信的并具有优秀学习能力的IOS开发</li>
-												<li>4、自信的并具有优秀学习能力的后台开发</li>
-											</ul>
-											<div class="content">
-												<ul>
-													<li>Q Q：204633299</li>
-													<li>手机：17098079923</li>
-													<li>邮箱：partner@lianzai.me</li>
-													<li>地址：杭州市余杭区联胜路江南水乡别墅小区</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="col1 pad_left1">
-										<div class="relative">
-											<div class="scroll">
-												<p>我们空有情怀？</p>
-												<p>其实，我们很现实，我们期待每一个加入轻想的伙伴都能有属于自己的现实，所以我们尽所能地给你塑造每一天更有意思的工作和生活：</p>
-												<p>7:00-8:00 你可以在轻想提供的别墅中好好睡个懒觉，也可以趁着清晨鸟叫去环境优美的路上慢跑散步，因为办公区就在一楼，你不需要挤公车，不需要被打卡机约束。</p>
-												<p>9:00-10:00 如果你醒了，随时享用轻想准备的零食或早餐，吃饱了一下楼便可以和打了鸡血的小伙伴们一起愉快地工作。</p>
-												<p>12:00-14:00 这时候当然是去享用阿姨烧的自家饭的时间，还有一个吃饱喝足后的午休也是必不可少的，因为我们相信最高的效率并不是死板的时间压制来达到的。</p>
-												<p>14:00-16:00 趁着午后好时光，大家应该一起在轻松的环境中为我们共同的理想而努力。</p>
-												<p>16:00-16:30 久坐伤身，年轻的身体不应该因为工作而漏洞百出，这时候就应该一起来喝杯轻想备好的下午茶，看会闲书，一起单挑几局桌球，起身活动活动。</p>
-												<p>16:30-18:30 放松后的工作效率肯定非比常人，赶紧抓紧时间努力工作一把。</p>
-												<p>18:30-19:00 又到了吃干净营养的家常饭的时候了，身体里都是我们属于自己年轻的梦和追求，怎么能只用快餐打发？</p>
-												<p>19:00-21:00 这时候，当然是拿起轻想提供的健身卡奔去游泳池篮球场健身房啦，没错我们就是这么任性，我们希望大家在努力工作的同时不要忘记运动，运动可以让一个人更舒朗。</p>
-												<p>21:30-23:30 这个时间段，你可以选择自己一个人看看书听听音乐，也可以选择和工作狂小伙伴一起加个小班，反正住这么近，想怎样就怎样！</p>
-												<p>PS：周末不定期烧烤party，周六晚上零食饮料沙发加上一部优秀的电影是必不可少的，还有更多的有趣的工作方式容我们卖个关子，面谈是一一告诉你，因为实在太多了。 简而言之，加入轻想你可以获得的不仅仅是一份工作，还有更好的生活。</p>
-
-												<p>合伙人待遇：</p>
-												<ul>
-													<li>1、与你等值的股权。</li>
-													<li>2、不低的薪酬。</li>
-													<li>3、免费的别墅食宿。</li>
-													<li>4、全年菲力伟健身卡，游泳，健身，篮球，羽毛球一应俱全。</li>
-													<li>5、舒适轻松的工作环境。</li>
-													<li>6、周六家庭影院以及优秀档期电影票</li>
-													<li>7、各种骑行慢跑活动</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li id="what">
-							<div class="pad">
-								<a href="#close" class="close"><span></span></a>
-								<div class="col1">
-									<div class="gallery_big_img">
-										<img src="images/big_img.jpg" alt="" class="img1" id="active">
-									</div>
-								</div>
-								<div class="col1 pad_left1">
-									<div id="caption">
-										<p>轻想科技成立于2015年6月1日，儿童节。 我们相信一款真正具有意义和长久生命力的的产品，一定是在使人便利的前提上，让人本身变得更好。我们不提倡“约炮”，即使它很火很赚钱，但我们不希望把一去不返的年轻消耗在虚假上，我们不喜欢“烧钱B2B”，即使它此时呼风唤雨无所不能，但虚火易灭，我们要给予世界上所有人一种美好长久不可替代的生活形式。 这款产品的名字叫轻想连载，是一款连载生活和目标挑战的社交APP，我们已经积累了部分潜在用户的优秀内容和需求，听过这个创意的人，几乎都十分认同这款产品的价值和趣味性，并一再表示迫不及待地想真正尝试一下完成版的轻想连载APP。
-											关于钱，现阶段我们已经通过创投机构融资接近7位数的种子轮投资，投资人对于轻想连载的未来发展抱有很高的投资热情与期待，并会在产品走上发展轨道后继续追加投资。
-										</p>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li id="who">
-							<div class="pad">
-								<a href="#close" class="close"><span></span></a>
-								<div class="wrapper">
-									<div class="colw230">
-										<div class="wrapper">
-											<figure class="left marg_right1" style="margin-bottom: 20px;"><img src="images/p1.png" alt=""></figure>
-											<p class="pad_bot1"><strong>倪春龙</strong>
-												<br> CEO兼执行总监
-											</p>
-											<p class="pad_bot1" style="clear: both;">“这个世界太浮躁，需要有一个产品来让人变得更好，那就是轻想连载。”</p>
-										</div>
-									</div>
-									<div class="colw230 pad_left1">
-										<div class="wrapper">
-											<figure class="left marg_right1" style="margin-bottom: 20px;"><img src="images/p2.jpg" alt=""></figure>
-											<p class="pad_bot1"><strong>邱东海</strong>
-												<br> 产品总监
-											</p>
-											<p class="pad_bot1" style="clear: both;">“当人们随波逐流的时候，我们期待通过轻想连载能够让人们能找到自己，导演他们人生的每一个旅程。”</p>
-										</div>
-									</div>
-									<div class="colw230 pad_left1">
-										<div class="wrapper">
-											<figure class="left marg_right1" style="margin-bottom: 20px;"><img src="images/p3.jpg" alt=""></figure>
-											<p class="pad_bot1"><strong>蔡贤东</strong>
-												<br> 品牌总监
-											</p>
-											<p class="pad_bot1" style="clear: both;">“我们期望每一个人偶能通过轻想连载在沙海一样的世界中找寻到属于自己的绿洲。”</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li id="page_Contacts">
-							<div class="pad">
-								<a href="#close" class="close"><span></span></a>
-								<div class="wrapper">
-									<div class="col1">
-										<h2>Contact Form</h2>
-										<form action="#" id="ContactForm">
-											<div class="success"> Contact form submitted!
-												<br>
-												<strong>We will be in touch soon.</strong> </div>
-											<fieldset>
-												<div class="wrapper">
-													<span class="col1">Name:</span>
-													<label class="name">
-														<span class="bg"><input type="text" class="input"></span>
-														<span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span>
-													</label>
-												</div>
-												<div class="wrapper">
-													<span class="col1">Email:</span>
-													<label class="email">
-														<span class="bg"><input type="text" class="input"></span>
-														<span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span>
-													</label>
-												</div>
-												<div class="wrapper">
-													<span class="col1">Phone:</span>
-													<label class="phone">
-														<span class="bg"><input type="text" class="input"></span>
-														<span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span>
-													</label>
-												</div>
-												<div class="wrapper">
-													<span class="col1">Message:</span>
-													<label class="message">
-														<span class="bg"><textarea rows="1" cols="1"></textarea></span>
-														<span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
-													</label>
-												</div>
-												<div class="btns"><a href="#" class="link1" data-type="submit">Send</a><a href="#" class="link1" data-type="reset">Clear</a></div>
-											</fieldset>
-										</form>
-									</div>
-									<div class="col1 pad_left1">
-										<h2>Contact Us</h2>
-										<figure class="google_map"></figure>
-										Demolink.org 8901 Marmora Road, Glasgow, D04 89GR.
-										<br>
-										<span class="col2">Telephone:</span> +1 959 552 5963;
-										<br>
-										<span class="col2">E-mail:</span> <a href="mailto:" class="link1">mail@demolink.org</a>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li id="page_More">
-							<div class="pad">
-								<a href="#close" class="close"><span></span></a>
-								<div class="wrapper">
-									<h2>Lorem ipsum dolor</h2>
-									<p class="pad_bot1"><strong>Nam liber placerat facer possim assum</strong>
-										<br> Dobis eleifend option congue nihil imperdiet dominguod mazim placerat facer possim assum lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
-									<p class="pad_bot1"><strong>Aliquam erat nostrud exerci tation</strong>
-										<br> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-									<p class="pad_bot1"><strong>Lorem ipsum dolor sit amet</strong>
-										<br> Sadipscing elit sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren, no sea takimata.</p>
-									<p class="pad_bot1"><strong>At vero eos et accusam et justo </strong>
-										<br> Lorem ipsum dolor sit amet, consetetur sadipsc- ing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum stet clita kasd.</p>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</article>
-				<!--content end-->
+					</div>
+					<!-- /.nav-collapse -->
+				</div>
 			</div>
-			<div class="bg1">
-				<div class="main">
-					<!--footer -->
-					<footer>
-						Copyright @2015 杭州轻想科技有限公司 版权所有
-						<nav id="bg_pagination">
-							<ul>
-								<li><span></span><a href="images/bg1.jpg">1</a></li>
-								<li><span></span><a href="images/bg2.jpg">2</a></li>
-								<li><span></span><a href="images/bg3.jpg">3</a></li>
-							</ul>
-						</nav>
-					</footer>
-					<!--footer end-->
+			<div class="container">
+				<div id="cta-text" class="row">
+					<div class="col-lg-6">
+						<h1 class="slogan">每个人都是生活的导演</h1>
+						<div class="app-download clearfix">
+							<a href="javascript:void();" class="down-ios">
+								<span></span>
+							</a>
+							<a href="javascript:void();" class="down-android">
+								<span></span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</header>
+
+		<div id="features" class="container features">
+			<!-- Example row of columns -->
+			<div class="row">
+				<div class="item col-md-4">
+					<span class="iconfont icon-heart pink"></span>
+					<h2>愿望清单</h2>
+					<p>在这里，你可以轻松记录或采集感兴趣的愿望成为你的愿望清单！</p>
+				</div>
+				<div class="item col-md-4">
+					<span class="iconfont icon-time green"></span>
+					<h2>生活连载</h2>
+					<p>在这里，你可以在朋友的见证下，通过时间轴去记录实现计划的过程！</p>
+				</div>
+				<div class="item col-md-4">
+					<span class="iconfont icon-moshubang orange"></span>
+					<h2>粉丝见证</h2>
+					<p>在这里，你可以看到众多有趣的连载内容，并成为见证人目睹计划的成败！</p>
 				</div>
 			</div>
 		</div>
-		<script>
-			$(window).load(function() {
-				$('.page_spinner').fadeOut();
-				$('body').css({
-					overflow: 'visible'
-				})
-			})
-		</script>
+		<!-- /container -->
+		<div id="sendWord" class="send-word">
+			<div class="container">
+				<div class="row">
+					<ul id="h_wrap" class="h_wrap">
+						<li class="col-md-8 col-md-offset-2">
+							<img src="img/avatar/rookie.png">
+							<h2>路奇&nbsp;&nbsp;(执行总监)</h2>
+							<p>“这个世界太浮躁，需要一群人，需要一个产品，来让人变的更好，那就是轻想连载。”</p>
+						</li>
+						<li class="col-md-8 col-md-offset-2">
+							<img src="img/avatar/sinan.jpg">
+							<h2>司南&nbsp;&nbsp;(产品总监)</h2>
+							<p>“我们期望每一个人通过轻想连载都能在像沙海一样的世界中找到属于自己的绿洲。”</p>
+						</li>
+						<li class="col-md-8 col-md-offset-2">
+							<img src="img/avatar/xiaocai.jpg">
+							<h2>小菜&nbsp;&nbsp;(品牌总监)</h2>
+							<p>“当人们随波逐流的时候，我们期待通过轻想连载能够让人们能找到自己，导演他们人生的每一个旅程。”</p>
+						</li>
+					</ul>
+					<ol id="select">
+						<li class="on" data-index="0"></li>
+						<li data-index="1"></li>
+						<li data-index="2"></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div id="download" class="download">
+			<div class="container">
+				<div class="content col-md-10 col-md-offset-1">
+					<img src="img/logo-shadow.png">
+					<h2>轻想连载<br>打开更好的自己</h2>
+					<div class="app-download clearfix">
+						<a href="javascript:void();" class="down-ios">
+							<span></span>
+						</a>
+						<a href="javascript:void();" class="down-android">
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="link">
+				<a href="#" target="_self">关于我们</a>
+				<a href="#" target="_self">加入我们</a>
+				<a href="#" target="_self">合作洽谈</a>
+			</div>
+			<p>Copyright @2014 杭州轻想科技有限公司 版权所有&nbsp;&nbsp;浙ICP备15029744号</p>
+		</footer>
+		<!-- Bootstrap core JavaScript
+    ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+		<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	</body>
 
 </html>

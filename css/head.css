@@ -1,0 +1,100 @@
+.slogan {
+  width: 449px;
+  height: 41px;
+  display: block;
+  background: url(../img/index-slogan.png) no-repeat;
+  font-size: 0;
+  text-indent: -9999px;
+  margin-bottom: 90px;
+  margin-top: 180px;
+}
+.navbar {
+  margin-bottom: 0;
+  min-height: 80px;
+}
+@media screen and (max-width: 768px) {
+  .navbar-toggle {
+    position: relative;
+    top: 12px;
+    left: auto;
+    display: block;
+    background: #dcdcdc;
+  }
+  .navbar-toggle .icon-bar {
+    background: #666;
+  }
+  .navbar-brand div {
+    background: none;
+  }
+  .navbar-brand div:before {
+    content: '轻想连载';
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    float: left;
+    margin-left: -15px;
+    margin-right: 5px;
+  }
+  .navbar-nav {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .navbar-nav.pull-right {
+    float: right;
+    width: auto;
+  }
+  .navbar-nav li {
+    float: left;
+  }
+  .navbar-nav li.active a {
+    color: #42ba7c;
+  }
+  .navbar-nav li a {
+    height: 80px;
+    line-height: 80px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #383838;
+    border-radius: 0;
+  }
+  .index .navbar-nav li a {
+    color: #fff;
+  }
+  .navbar-toggle {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: none;
+  }
+  .nav-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+}
+.navbar-btn {
+  margin-top: 8px;
+}
+.navbar-link {
+  color: #777777;
+}
+.navbar-link:hover {
+  color: #333333;
+}
+.navbar-inverse .navbar-link {
+  color: #999999;
+}
+.navbar-inverse .navbar-link:hover {
+  color: white;
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+  color: #42ba7c;
+  text-decoration: underline;
+  background-color: inherit;
+}
